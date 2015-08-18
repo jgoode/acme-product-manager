@@ -1,3 +1,4 @@
+module app.productList {
 interface IProductListModel {
     title: string;
     showImage: boolean;
@@ -52,3 +53,4 @@ class ProductListCtrl implements IProductListModel {
 angular
 .module("productManagement")
 .controller("ProductListCtrl", ProductListCtrl);
+}
